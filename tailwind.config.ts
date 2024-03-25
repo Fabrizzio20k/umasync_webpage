@@ -8,11 +8,24 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        'earthFont': ['Earth Bold', 'sans-serif'],
       },
+      colors: {
+        "mainBlue": {
+          50: "#DBF4FF",
+          100: "#B3E7FF",
+          200: "#66CFFF",
+          300: "#1AB6FF",
+          400: "#008BCC",
+          500: "#005780",
+          600: "#004666",
+          700: "#00344D",
+          800: "#002333",
+          900: "#001119",
+          950: "#000A0F"
+        }
+      }
     },
   },
   plugins: [],
