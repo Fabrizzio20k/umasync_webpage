@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div>
-      <h1>UmaSync Robotics aaa</h1>
+      <h1>Cuerpo</h1>
     </div>
   );
 }
