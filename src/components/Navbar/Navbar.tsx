@@ -44,7 +44,7 @@ export default function Navbar() {
 
 
     return (
-        <header className="bg-mainBlue-800 fixed w-full border-2 border-yellow-300">
+        <header className="bg-mainBlue-800 fixed w-full">
             <nav className="flex flex-row max-w-1920 items-center justify-between mx-5 sm:mx-10 xl:mx-auto">
                 <Link href="/" className="my-2">
                     <ul className="flex items-center justify-between cursor-pointer">
