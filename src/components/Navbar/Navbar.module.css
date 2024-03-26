@@ -18,5 +18,8 @@
 .item:hover::after {
     left: 0;
     right: 0;
-    color: white;
+}
+
+.linkActive {
+    color: #1AB6FF;
 }
