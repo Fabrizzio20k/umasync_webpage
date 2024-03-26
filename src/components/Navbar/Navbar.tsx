@@ -102,7 +102,7 @@ export default function Navbar() {
                             transition={{ type: 'tween', duration: 0.4, ease: 'easeInOut' }}
 
                         >
-                            <ul className="flex flex-col space-y-4 py-4 px-4 mx-auto">
+                            <ul className="flex flex-col space-y-10 py-4 px-4 mx-auto">
                                 {menuOptions.map((option, i) => (
                                     <li key={i} className="flex flex-row w-full justify-between items-center text-white hover:text-blue-400 transition-all duration-500">
                                         <Link href={menuLinks[i]} className={`${styles.item} ${path === menuLinks[i] ? styles.linkActive : ""}`}>{option}</Link>
