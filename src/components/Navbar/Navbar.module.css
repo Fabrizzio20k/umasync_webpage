@@ -1,0 +1,22 @@
+.item {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    height: 2px;
+    background: #1AB6FF;
+    transition: all .5s;
+}
+
+.item:hover::after {
+    left: 0;
+    right: 0;
+    color: white;
+}

@@ -8,9 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        'earthFont': ['Earth Bold', 'sans-serif'],
-      },
       colors: {
         "mainBlue": {
           50: "#DBF4FF",
@@ -25,7 +22,16 @@ const config: Config = {
           900: "#001119",
           950: "#000A0F"
         }
-      }
+      },
+      fontFamily: {
+        'earthFont': ['Earth Bold', 'sans-serif'],
+      },
+      maxWidth: {
+        "1920": "1920px",
+      },
+      screens: {
+        "xl": "2000px",
+      },
     },
   },
   plugins: [],

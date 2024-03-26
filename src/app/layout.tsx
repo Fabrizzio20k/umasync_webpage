@@ -15,9 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body>
+      <body className="bg-slate-500">
         <Navbar />
         {children}
+        <h1 className="text-7xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis architecto nulla minus dolor omnis cum quasi odio! Reiciendis necessitatibus excepturi voluptatem, consequuntur nesciunt unde delectus magni, fugit, dolorum exercitationem esse!</h1>
+        <h1 className="text-7xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis architecto nulla minus dolor omnis cum quasi odio! Reiciendis necessitatibus excepturi voluptatem, consequuntur nesciunt unde delectus magni, fugit, dolorum exercitationem esse!</h1>
         <Footer />
       </body>
     </html>
