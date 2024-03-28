@@ -26,6 +26,8 @@ const config: Config = {
       },
       fontFamily: {
         'earthFont': ['Earth Bold', 'sans-serif'],
+        'cabinRegular': ['Cabin Regular', 'sans-serif'],
+        'cabinBold': ['Cabin Bold', 'sans-serif'],
       },
       maxWidth: {
         "1920": "1920px",
